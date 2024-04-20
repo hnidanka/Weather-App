@@ -1,0 +1,143 @@
+#mainContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: -1;
+}
+.background-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* transform: translate(12vw); */
+    z-index: -1;
+    
+}
+
+.default-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* transform: translate(12vw); */
+    z-index: -1;
+    /* border: solid white; */
+}
+.default-container{
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    /* border: solid white; */
+    display: flex;
+    top: 0;
+    margin-top: 37vh; 
+     align-items: center;
+    flex-flow: column wrap;
+    
+}
+.default-container h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+.default-container p{
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.container{
+    width: 400px;
+    height: 73vh;
+    margin:auto;
+    margin-top: 75px;
+    border-radius: 5px;
+    background-color: rgba(98, 98, 98, 0.5);
+    padding: 20px;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 20px;
+}
+.top-bar input{
+    display:flex;
+    width: 350px;
+    height: 50px;
+    background: #ebfffc;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor:pointer
+}
+
+.weather-image{
+    margin-top:  0px;
+    display: flex;
+    justify-content: center;
+    width: 27vw;
+    height: 27vh;
+
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 350;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.data-container{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+}
+
+.data{
+    font-size: 34px;
+    font-weight: 350;
+}
+
+.text{
+    font-size:  20px;
+    font-weight: 100;
+}
+
+.icon{
+    margin-top: 10px;
+}
