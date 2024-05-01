@@ -1,0 +1,157 @@
+@media screen and (max-width: 600px) {
+   
+    .default-background .background-video{
+        transform: translate(0%, 30%);
+    }
+   
+    .default-container{
+        width: 80vw;
+        top: 20vh;
+        margin-top: 0; 
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    .default-container h1{
+        font-size: 30px;
+    }
+    
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 55vw;
+        border-radius: 5px;
+    }
+    .top-bar{
+        gap: 10px;
+        margin: 0px;
+    }
+    .top-bar input{
+        width: 55vw;
+        height: 7vh;
+    }
+    
+    .search-icon{
+        position: absolute;
+        top: 2.7vh;
+        right: 20.5vw;
+        width: 10vw;
+        height: 7vh;
+        cursor:none;
+        margin-right:4vw ;
+        border: dotted 1px #626262 ;
+    }
+
+    .location_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10vw;
+        height: 7vh;
+    }
+    .loc_ic{
+        width: 7vw;
+        height: 4vh;
+    }
+    
+    .weather-image{
+        margin-top:  0px;
+        width: auto;
+    }
+    
+    .weather-temp{
+        font-size: 55px;
+        font-weight: 350;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: auto;
+    }
+    .weather-location{
+        font-size: 35px;
+        font-weight: 300;
+        width: auto;
+    }
+    
+    .weather-description{
+        font-size: 25px ;
+        margin-bottom: 0px;
+        width: auto;
+    }
+    
+    .min-max-container{
+        font-size: 17px ;
+        gap: 15px;
+        width: auto;
+    }
+    
+    .data-container{
+        position: static;
+        top: 60vh;
+        width: auto;
+        height: auto;
+        border: none;
+
+    }
+    
+    .element{
+            margin: auto;
+            width: 22vw;
+            height: 8vh;
+            border-radius: 40px;
+           
+    }
+
+    .data{
+        font-size: 16px;
+    }
+    
+    .text{
+        font-size:  13px;
+    }
+    
+    .icon{
+        width: 4vw;
+        height: 3vh;  
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    .default-background .background-video{
+        transform: translate(0%, 30%);
+    }
+    .default-container{
+        width: 80vw;
+        top: 20vh;
+        margin-top: 0; 
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    .default-container h1{
+        font-size: 30px;
+    }
+    .element{
+      
+        flex-direction: column;
+        
+        padding-top: 4%;
+        padding-bottom: 4%;
+        gap: 12px;
+        width: 12vw;
+        height: 10vh;
+        border-radius: 12px;
+        transition: 1s ease-in;
+}
+
+    .data{
+        font-size: 16px;
+    }
+    
+    .text{
+        font-size:  13px;
+    }
+    
+    .icon{
+        width: 4vw;
+        height: 3vh;  
+    }
+}
